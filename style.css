@@ -1,0 +1,21 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body {
+
+}
+.flex-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.flex-form > input {
+    flex: 1;
+}
+.list {
+
+}

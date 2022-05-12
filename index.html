@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discord Simple Guild Recruitment</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="webhook" class="flex-form">
+        <input type="text" id="webhook-url" placeholder="Enter your webhook url">
+        <button id="webhook-load">Save</button>
+    </div>
+    <div class="flex-form">
+        <input type="text" id="recruit-url" placeholder="Enter the URL linking to the tutorial">
+        <button id="recruit-load">Save</button>
+    </div>
+    <div class="flex-form">
+        <input type="text" id="emoji-string" placeholder="Enter the emoji string (obtainable by typing '\:emoji:' in Discord)">
+        <button id="emoji-load">Save</button>
+    </div>
+    <div id="messages" class="list">
+        <div class="new-message" class="flex-form">
+            <input type="text" id="new-message-id" placeholder="Message ID">
+            <button id="new-message-load">Load</button>
+        </div>
+    </div>
+    <div id="guilds" class="list">
+        <div class="new-guild" class="flex-form">
+            <input type="text" id="new-guild-name" placeholder="Guild Name">
+            <input type="text" id="new-guild-link" placeholder="Guild Link">
+            <button id="new-guild-add">Add</button>
+            <button id="guild-commit">Commit Changes</button>
+        </div>
+    </div>
+</body>
+</html>
